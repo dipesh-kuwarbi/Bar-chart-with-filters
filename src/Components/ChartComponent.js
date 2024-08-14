@@ -1,6 +1,7 @@
 import { Bar } from "react-chartjs-2";
 
 const ChartComponent = ({ data }) => {
+  console.log(data);
   const chartData = {
     labels: data.map((item) => item.interest_rate),
     datasets: [

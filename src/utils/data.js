@@ -25,8 +25,6 @@ export const fetchChartData = async (params) => {
   }
 };
 
-import { saveAs } from "file-saver";
-
 export const downloadChart = () => {
   const canvas = document.querySelector("canvas");
   canvas.toBlob((blob) => {
